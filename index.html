@@ -6,18 +6,15 @@
 </head>
 <body>
 
-    <button id="btnConfirmar">Confirmar</button>
-    <p id="mensagem">Aguardando ação...</p>
-
+<button id="btnConfirmar">Confirmar</button>
+<p id="mensagem">Aguardando ação...</p>
     <script>
         function confirmarAcao() {
             const paragrafo = document.getElementById("mensagem");
             paragrafo.textContent = "Ação confirmada!";
         }
-
         const botao = document.getElementById("btnConfirmar");
         botao.addEventListener("click", confirmarAcao);
     </script>
-
 </body>
 </html>

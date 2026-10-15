@@ -1,6 +1,5 @@
 function executarTarefa(callback) {
-    callback();
-}
+    callback();}
 executarTarefa(function() {
     console.log("Tarefa concluída");
 });

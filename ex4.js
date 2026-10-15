@@ -1,6 +1,5 @@
 function verificarNota(nota, callback) {
-    callback(nota); 
-}
+    callback(nota); }
 verificarNota(7.5, function(valor) {
     if (valor >= 6) {
         console.log("Aprovado");
